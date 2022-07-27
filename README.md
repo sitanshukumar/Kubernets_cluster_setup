@@ -65,6 +65,8 @@ sudo kubeadm init
 # [ERROR CRI]: container runtime is not running: output:
 
 rm /etc/containerd/config.toml
+
 systemctl restart containerd
+
 kubeadm init
 
