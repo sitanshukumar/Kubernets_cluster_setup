@@ -26,7 +26,7 @@ sudo reboot
 
  sudo apt-get update
  
- sudo apt-get install \
+  sudo apt-get install \
     ca-certificates \
     curl \
     gnupg \
